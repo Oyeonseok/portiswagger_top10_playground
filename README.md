@@ -154,6 +154,8 @@ Do not use this project to test unauthorized real-world systems.
 
 ---
 
+## Trouble Shooting
+
 | 문제                        | 원인                                  | 해결                                              |
 | ------------------------- | ----------------------------------- | ----------------------------------------------- |
 | `docker compose` 명령어가 안 됨 | Docker Compose v2 미설치 또는 Docker 미실행 | Docker Desktop 실행 후 `docker compose version` 확인 |
