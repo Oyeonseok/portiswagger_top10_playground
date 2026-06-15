@@ -151,3 +151,15 @@ flowchart LR
 
 For **educational and research purposes only**.  
 Do not use this project to test unauthorized real-world systems.
+
+---
+
+| 문제                        | 원인                                  | 해결                                              |
+| ------------------------- | ----------------------------------- | ----------------------------------------------- |
+| `docker compose` 명령어가 안 됨 | Docker Compose v2 미설치 또는 Docker 미실행 | Docker Desktop 실행 후 `docker compose version` 확인 |
+| Dashboard 접속 불가           | `18000` 포트 충돌 또는 컨테이너 미실행           | `docker compose ps`로 상태 확인                      |
+| 챌린지 포트 접속 불가              | 해당 챌린지 인스턴스가 아직 시작되지 않음             | 대시보드에서 Start 클릭                                 |
+| 빌드가 오래 걸림                 | 여러 챌린지 컨테이너를 동시에 빌드                 | 최초 실행 시 대기, 이후 재실행은 빨라짐                         |
+| 메모리 부족                    | 여러 컨테이너 동시 실행                       | 사용하지 않는 챌린지는 Stop 처리                            |
+
+---
