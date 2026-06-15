@@ -254,3 +254,5 @@ bot 은 victim origin 에 flag 를 심은 뒤 attacker 페이지를 방문합니
 4. `000000...` 기준 요청을 보냄
 5. 그 뒤 두 요청의 상대적 처리 순서를 candidate 완료 시간으로 판정
 6. binary search 로 `hex(flag)` 를 복원
+
+ㅇㅇㅁㅇㅁㅇㄴㅁㅇㅇㅁ
