@@ -87,3 +87,5 @@ npm run check
 목표는 victim이 생성한 subdomain 요청을 timing side channel로 분석해 최종적으로 `wsl{...}` 형태의 flag를 복원하는 것입니다.
 
 즉, 이 환경의 핵심은 응답 내용을 읽는 것이 아니라 요청 처리 순서와 지연 시간만으로 값을 유추하는 데 있습니다.
+
+fix 버그수정!
