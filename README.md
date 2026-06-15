@@ -21,6 +21,24 @@ This repository is designed for:
 
 ---
 
+## Demo
+
+현재 외부 배포 URL은 없으며, 로컬 Docker 환경에서 실행합니다.
+
+- Dashboard: `http://localhost:18000`
+- Challenge Ports: `18001` ~ `18010`
+- Status: 9 Ready / 1 Placeholder
+
+---
+
+## Features
+
+- **Central Dashboard**: 메인 대시보드에서 챌린지 인스턴스를 시작/중지하고 flag를 제출할 수 있습니다.
+- **Isolated Challenge Environments**: 각 취약점 실습 환경을 Docker 컨테이너 단위로 분리합니다.
+- **PortSwigger Top 10 Mapping**: PortSwigger Top 10 Web Hacking Techniques of 2025 기반 시나리오를 로컬 워게임 형태로 제공합니다.
+
+---
+
 ## Requirements
 
 - Docker
