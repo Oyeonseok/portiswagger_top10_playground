@@ -57,6 +57,10 @@ Use this mode for normal play, demo, or presentation.
 docker compose up -d --build
 ```
 
+### Development Mode
+
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
+
 ---
 
 ## Quick Start
