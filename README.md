@@ -120,6 +120,12 @@ docker compose up -d --build
 
 ---
 
+## Test
+
+```txt
+현재는 로컬 실행 기반 Smoke Test와 Manual Test를 제공하며, 자동화 테스트 커버리지는 아직 제공하지 않습니다.
+```
+
 ## Architecture
 
 ```mermaid
