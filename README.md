@@ -68,6 +68,17 @@ Play flow:
 
 ---
 
+## Run Modes
+
+### Normal / Demo Mode
+
+Use this mode for normal play, demo, or presentation.
+
+```bash
+docker compose up -d --build
+
+---
+
 ## Challenge Matrix
 
 | # | Technique | Directory | Access Port | Status |
@@ -208,4 +219,5 @@ Same-Origin Policy는 다른 출처의 응답 내용을 직접 읽는 것을 막
 브라우저 보안 정책과 사이드 채널 정보 유출을 함께 이해해야 하는 취약점입니다.
 
 --- 
+
 
