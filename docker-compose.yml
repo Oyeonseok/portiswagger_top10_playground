@@ -12,3 +12,6 @@ services:
       - .:/playground  
     working_dir: /playground/0_main_page  
     restart: unless-stopped
+    enviroment:
+      - FLASK_DEBUG = 0
+      - APP_ENV = production-like
