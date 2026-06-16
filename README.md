@@ -112,20 +112,6 @@ docker compose up -d --build
 ## Architecture
 
 ```mermaid
-flowchart LR
-    A[User Browser] --> B[Main Dashboard :18000]
-    B --> C1[Challenge #1 :18001]
-    B --> C2[Challenge #2 :18002]
-    B --> C3[Challenge #3 :18003]
-    B --> C4[Challenge #4 :18004]
-    B --> C5[Challenge #5 :18005]
-    B --> C6[Challenge #6 :18006]
-    B --> C7[Challenge #7 :18007]
-    B --> C8[Challenge #8 :18008]
-    B --> C9[Challenge #9 :18009]
-    B --> C10[Challenge #10 :18010]
-
-```mermaid
 flowchart TD
       START([시작]) --> DASH[/대시보드 접속<br/>:18000/]
 
