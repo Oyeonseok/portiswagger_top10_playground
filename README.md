@@ -6,6 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-CTF%20%7C%20Wargame-orange)
 ![Year](https://img.shields.io/badge/Coverage-2025-success)
 [![Build](https://github.com/Oyeonseok/portiswagger_top10_playground/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Oyeonseok/portiswagger_top10_playground/actions/workflows/build.yml)
+[![Docs](https://img.shields.io/badge/Docs-README--KR-blue)](./README-KR.md)
 
 
 A local CTF/wargame playground based on **PortSwigger Top 10 Web Hacking Techniques of 2025**.  
