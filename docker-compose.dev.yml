@@ -1,0 +1,5 @@
+services:
+  main_dashboard:
+    environment:
+      - FLASK_DEBUG=1
+      - APP_ENV=development
