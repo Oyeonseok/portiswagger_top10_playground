@@ -125,6 +125,7 @@ flowchart LR
     B --> C9[Challenge #9 :18009]
     B --> C10[Challenge #10 :18010]
 
+```mermaid
 flowchart TD
       START([시작]) --> DASH[/대시보드 접속<br/>:18000/]
 
