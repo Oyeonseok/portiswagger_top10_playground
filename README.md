@@ -124,6 +124,40 @@ flowchart LR
     B --> C8[Challenge #8 :18008]
     B --> C9[Challenge #9 :18009]
     B --> C10[Challenge #10 :18010]
+
+flowchart TD
+      START([시작]) --> DASH[/대시보드 접속<br/>:18000/]
+
+      DASH --> SELECT[/챌린지 선택/]
+      SELECT --> START_BTN[/Start 클릭/]
+
+      START_BTN --> RUN["Docker Start API 호출<br/>docker compose up -d"]
+      RUN --> RUN_OK{"실행 성공?"}
+
+      RUN_OK -- "아니오" --> ERROR[/오류 메시지 출력/]
+      ERROR --> SELECT
+
+      RUN_OK -- "예" --> LAB[/챌린지 페이지 접속<br/>:18001 ~ :18010/]
+      LAB --> ATTACK["취약점 분석 및 공격"]
+      ATTACK --> FLAG_OK{"Flag 획득?"}
+
+      FLAG_OK -- "아니오" --> ATTACK
+      FLAG_OK -- "예" --> SUBMIT[/Flag 입력 및 제출/]
+
+      SUBMIT --> CHECK{"정답 Flag와 일치?"}
+
+      CHECK -- "아니오" --> WRONG[/오답 메시지 출력/]
+      WRONG --> SUBMIT
+
+      CHECK -- "예" --> SESSION[(세션 solved 저장)]
+      SESSION --> SOLVED[/해결 완료 표시/]
+
+      SOLVED --> MORE{"다른 문제 풀이?"}
+
+      MORE -- "예" --> SELECT
+      MORE -- "아니오" --> STOP["필요 시 docker compose down"]
+      STOP --> END([종료])
+
 ```
 
 ---
