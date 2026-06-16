@@ -47,22 +47,6 @@ This repository is designed for:
 
 ---
 
-## Run Modes
-
-### Normal / Demo Mode
-
-Use this mode for normal play, demo, or presentation.
-
-```bash
-docker compose up -d --build
-```
-
-### Development Mode
-
-docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
-
----
-
 ## Quick Start
 
 ```bash
@@ -109,6 +93,17 @@ Play flow:
 cd <challenge-directory>
 docker compose up -d --build
 ```
+### Normal / Demo Mode
+
+Use this mode for normal play, demo, or presentation.
+
+```bash
+docker compose up -d --build
+```
+
+### Development Mode
+
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
 
 ### Stop
 
