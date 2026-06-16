@@ -47,6 +47,18 @@ This repository is designed for:
 
 ---
 
+## Run Modes
+
+### Normal / Demo Mode
+
+Use this mode for normal play, demo, or presentation.
+
+```bash
+docker compose up -d --build
+```
+
+---
+
 ## Quick Start
 
 ```bash
@@ -65,17 +77,6 @@ Play flow:
 2. Start the instance
 3. Exploit and retrieve the flag
 4. Submit the flag
-
----
-
-## Run Modes
-
-### Normal / Demo Mode
-
-Use this mode for normal play, demo, or presentation.
-
-```bash
-docker compose up -d --build
 
 ---
 
