@@ -71,4 +71,4 @@ def manage_docker(action, chal_id):
         return jsonify({"status": "error", "message": "Docker 명령 실행 중 오류가 발생했습니다. (자세한 내용은 서버 로그 확인)"}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=debug_mode)
